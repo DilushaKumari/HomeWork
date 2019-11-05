@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCustomerController">
+<AnchorPane prefHeight="255.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCustomerController">
    <children>
       <Label layoutX="60.0" layoutY="26.0" text="Add Customer Form">
          <font>
@@ -31,7 +30,8 @@
       </Label>
       <TextField fx:id="txtId" layoutX="126.0" layoutY="84.0" />
       <TextField fx:id="txtName" layoutX="126.0" layoutY="119.0" />
-      <TextField fx:id="txtAddress" layoutX="126.0" layoutY="153.0"  />
-      <Button fx:id="btnSave" layoutX="126.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnSave_OnAction" text="Save" />
+      <TextField fx:id="txtAddress" layoutX="126.0" layoutY="153.0" />
+      <Button fx:id="btnSave" layoutX="126.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnSave_OnAction" prefHeight="33.0" prefWidth="67.0" text="Save" />
+      <Button fx:id="btnHome" layoutX="208.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnHome_OnAction" prefHeight="33.0" prefWidth="67.0" text="Home" />
    </children>
 </AnchorPane>
