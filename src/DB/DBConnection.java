@@ -19,7 +19,7 @@ public class DBConnection {
             ResultSet resultSet = preparedStatement.executeQuery();
             if (!resultSet.next()) {
                 String sql = "\n" +
-                        "CREATE TABLE  IF NOT EXISTS git(\n" +
+                        "CREATE TABLE  IF NOT EXISTS customer(\n" +
                         "\tid VARCHAR(4) PRIMARY KEY NOT NULL,\n" +
                         "\tname VARCHAR(50),\n" +
                         "\taddress VARCHAR(50),\n" +

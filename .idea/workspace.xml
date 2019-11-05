@@ -2,40 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a6fc78-2f6d-4030-88ba-59862c181c1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DB/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jfoenix-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/com.lowagie.text-2.1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/commons-beanutils-1.9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/commons-collections-3.2.1-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/commons-collections4-4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/commons-digester-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/jasperreports-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/jasperreports-annotation-processors-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/jasperreports-chart-customizers-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/jasperreports-chart-themes-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/jasperreports-custom-visualization-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/jasperreports-fonts-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/jasperreports-functions-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/jasperreports-javaflow-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/jasperreports-metadata-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/joda-time-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/org.springframework.beans.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jre/org.springframework.core-3.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/931858dd-70fe-4ab1-a313-f37444001b2e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Git_Home_Work/view/AddCustomerForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Git_Home_Work/view/DashBoardForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git_Home_Work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Git_Home_Work.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddCustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AddCustomerForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DashBoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/DashBoardForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DB/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AddCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/DashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DashBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AddCustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AddCustomerForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/DashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/DashBoardForm.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +52,7 @@
         <item name="git@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="git: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="git: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="customer: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -85,34 +61,40 @@
     <session id="-136550660">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="4" />
-          <entry key="java" value="19" />
+          <entry key="customer" value="1" />
+          <entry key="fxml" value="20" />
+          <entry key="java" value="44" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="Database Element" value="1" />
+          <entry key="JAVA" value="44" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="110" />
+          <entry key="fxml" value="3" />
+          <entry key="java" value="321" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="110" />
+          <entry key="JAVA" value="321" />
           <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -120,10 +102,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Customer.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/AddCustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="374">
+              <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -150,6 +132,11 @@
         <option value="$PROJECT_DIR$/src/Customer.java" />
         <option value="$PROJECT_DIR$/src/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/AppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/view/AddCustomerForm.fxml" />
+        <option value="$PROJECT_DIR$/src/view/DashBoardForm.fxml" />
+        <option value="$PROJECT_DIR$/src/controller/DashBoardController.java" />
+        <option value="$PROJECT_DIR$/src/DB/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/controller/AddCustomerController.java" />
       </list>
     </option>
   </component>
@@ -193,22 +180,35 @@
               <item name="Git_Home_Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="Git_Home_Work" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Git_Home_Work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Git_Home_Work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Git_Home_Work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Git_Home_Work" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572945827906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572962652939" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -263,44 +263,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572941959594</updated>
-      <workItem from="1572941963673" duration="3397000" />
+      <workItem from="1572941963673" duration="4465000" />
+      <workItem from="1572960282926" duration="2287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3397000" />
+    <option name="totallyTimeSpent" value="6752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32991204" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.329429" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32991204" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.17057101" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,25 +313,50 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/AddCustomerForm.fxml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/931858dd-70fe-4ab1-a313-f37444001b2e/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="272">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/AddCustomerController.java">
+    <entry file="file://$PROJECT_DIR$/src/view/AddCustomerForm.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="578">
+          <caret line="34" column="99" selection-start-line="34" selection-start-column="99" selection-end-line="34" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/DashBoardForm.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/DashBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="373">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://931858dd-70fe-4ab1-a313-f37444001b2e/schema/git/table/customer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -339,28 +367,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/DashBoardForm.fxml">
+    <entry file="file://$PROJECT_DIR$/src/controller/AddCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/931858dd-70fe-4ab1-a313-f37444001b2e/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
         </state>
       </provider>
     </entry>
